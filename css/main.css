@@ -1,0 +1,13 @@
+#homeHeading{
+    color:#F60;
+ }
+
+.navbar-brand img{
+  max-width:120px;
+   margin-top: -7px;
+
+  }
+  .navbar-brand p{
+    font-size: 14px;
+     color:#F60;
+  }
