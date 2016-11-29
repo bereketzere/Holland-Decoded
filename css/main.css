@@ -1,13 +1,177 @@
-#homeHeading{
-    color:#F60;
- }
 
+ 
+/* The size of logo*/
 .navbar-brand img{
   max-width:120px;
    margin-top: -7px;
 
   }
+  /* color  "Holland Decoded" down of logo image */
   .navbar-brand p{
     font-size: 14px;
      color:#F60;
   }
+
+ 
+/* Changing color for the navbar When we go down of the page because the navbar is fixed in the top of the page */
+
+.navbar-default.affix{
+    background-color:#000;
+    border-color:rgba(34,34,34,.05)
+    }
+/* process of navbar color when the screen of moblie or small*/
+ @media (max-width:1020px){
+  .navbar-default
+  {
+    background-color:#000;
+    border-color:rgba(255,255,255,.3)
+  }
+   
+}
+
+/* backroung color of section Which  has a class "bg-primary" */
+.bg-primary{
+  background-color:#000;
+  }
+
+
+  @media (min-width: 768px)   {
+   .collapse {
+       display: none !important;
+   }
+}
+
+/* process of navbar collapse  when the screen of moblie or small the main will be flixbal*/
+@media (max-width: 1020px) {
+    .navbar-header {
+        float: none;
+    }
+    .navbar-toggle {
+        display: block;
+    }
+    .navbar-collapse {
+        border-top: 1px solid transparent;
+        box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+    }
+    .navbar-collapse.collapse {
+        display: none!important;
+    }
+    .navbar-nav {
+        float: none!important;
+        margin: 7.5px -15px;
+    }
+    .navbar-nav>li {
+        float: none;
+    }
+    .navbar-nav>li>a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .navbar-text {
+        float: none;
+        margin: 15px 0;
+    }
+    /* since 3.1.0 */
+    .navbar-collapse.collapse.in { 
+        display: block!important;
+    }
+    .collapsing {
+        overflow: hidden!important;
+    }
+}
+
+/* Header section content H1,text,video of the home page and the name of the website*/
+
+header{
+  min-height:auto;
+  -webkit-background-size:cover;
+  -moz-background-size:cover;
+  background-size:cover;
+  -o-background-size:cover;
+  background-position:center;
+  color:#fff
+  }
+
+header .header-content{
+  padding:100px 15px
+  }
+/* color for  h1 "Holland Decoded" id="homeHeading */
+header .header-content .header-content-inner h1{
+  font-weight:700;
+  text-transform:uppercase;
+  margin-top:0;
+  margin-bottom:0;
+  font-size:30px;
+  color:#F60; 
+  }
+
+header .header-content .header-content-inner hr{
+  margin:30px auto
+  }
+
+header .header-content .header-content-inner p{
+  font-weight:300;
+  color:rgba(255,255,255,.7);
+  font-size:16px;
+  margin-bottom:50px;
+  color:#F60;
+  }
+
+
+
+  /*  Background Video */
+#backgroundVideo{
+
+   position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    background: url(polina.jpg) no-repeat;
+    background-size: cover;
+}
+
+
+  /* process of Header section to fit for any screen size*/
+
+  @media (min-width:768px){
+  header{
+    min-height:100%
+    }
+
+header .header-content{
+  position:absolute;
+  top:50%;
+  -webkit-transform:translateY(-50%);
+  -ms-transform:translateY(-50%);
+  transform:translateY(-50%);
+  padding:0 50px
+  }
+
+header .header-content .header-content-inner{
+  max-width:1000px;
+  margin-left:auto;
+  margin-right:auto
+  }
+
+header .header-content .header-content-inner h1{
+  font-size:50px
+  }
+
+header .header-content .header-content-inner p{
+  font-size:18px;
+  max-width:80%;
+  margin-left:auto;
+  margin-right:auto
+  }
+
+}
+/* Font size of Fees section*/
+#fees p{
+ font-size: 12px;
+}
