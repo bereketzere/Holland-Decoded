@@ -29,14 +29,19 @@
    
 }
 
-/* backroung color of section Which  has a class "bg-primary" */
+/* bg-primary class section changing  */
 .bg-primary{
-  background-color:#28345a;
-
-}
-
+  background-color:#000;
+   color:red !important ;
   }
 
+.bg-primary p{
+   color:red !important ;
+}
+
+hr.light{
+  border-color:#000;
+  }
 
   @media (min-width: 768px)   {
    .collapse {
@@ -111,13 +116,13 @@ header .header-content .header-content-inner h1{
 header .header-content .header-content-inner hr{
   margin:30px auto
   }
-
+/* color for  P  text in header */
 header .header-content .header-content-inner p{
   font-weight:300;
   color:rgba(255,255,255,.7);
   font-size:16px;
   margin-bottom:50px;
-  color:#eff2ef;
+  color:#fff;
   }
 
 
@@ -179,71 +184,9 @@ header .header-content .header-content-inner p{
  font-size: 12px;
 }
 
+/* Element a links change color*/
 
-/* for H1 h2... Font color changed to white */
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-.h1,
-.h2,
-.h3,
-.h4,
-.h5,
-.h6 {
-  font-family: inherit;
-  font-weight: 500;
-  line-height: 1.1;
-  color: white;
-}
-h1 small,
-h2 small,
-h3 small,
-h4 small,
-h5 small,
-h6 small,
-.h1 small,
-.h2 small,
-.h3 small,
-.h4 small,
-.h5 small,
-.h6 small,
-h1 .small,
-h2 .small,
-h3 .small,
-h4 .small,
-h5 .small,
-h6 .small,
-.h1 .small,
-.h2 .small,
-.h3 .small,
-.h4 .small,
-.h5 .small,
-.h6 .small {
-  font-weight: normal;
-  line-height: 1;
-  color: white;
-}
-
-/* in menu Lesson the font color changed to white*/
-.text-muted {
-  color: white;
-}
-/*for menu method, fee, and clients the text color becomes white*/
-body {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 14px;
-  line-height: 1.42857143;
-  color: #eff2ef;
-  background-color: #fff;
-}
-
-/* for the butten find out in home page more the color changed */
-.btn-primary {
-  color: #eff2ef;
-  background-color: #F60;
-  border-color: #2e6da4;
-}
+a{
+  transition:all .35s;
+  color:#000;
+  }
