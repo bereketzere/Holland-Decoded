@@ -16,14 +16,59 @@
 /* Changing color for the navbar When we go down of the page because the navbar is fixed in the top of the page */
 
 .navbar-default.affix{
-    background-color:#000;
+    background-color:#28345a;
     border-color:rgba(34,34,34,.05)
     }
+
+@media (min-width:768px){
+  .navbar-default
+  {
+    background-color:transparent;border-color:rgba(255,255,255,.3)
+  }
+
+  .navbar-default .navbar-header .navbar-brand
+  {
+    color:rgba(255,255,255,.7)
+  }
+
+  .navbar-default .navbar-header .navbar-brand:focus,.navbar-default .navbar-header .navbar-brand:hover{
+    color:#fff
+    }
+
+  .navbar-default .nav>li>a,.navbar-default .nav>li>a:focus{
+    color:red;
+    }
+
+  .navbar-default .nav>li>a:focus:hover,.navbar-default .nav>li>a:hover{
+    color:#fff
+    }
+
+  .navbar-default.affix .navbar-header .navbar-brand{
+    color:#F05F40;font-size:14px
+    }
+
+  .navbar-default.affix .navbar-header .navbar-brand:focus,.navbar-default.affix .navbar-header .navbar-brand:hover{
+    color:#eb3812
+    }
+
+  .navbar-default.affix .nav>li>a,.navbar-default.affix .nav>li>a:focus{
+    color:white
+    }
+
+  .navbar-default.affix .nav>li>a:focus:hover,.navbar-default.affix .nav>li>a:hover{
+    color:#F05F40
+    }
+
+  }
+
+ 
+
+
 /* process of navbar color when the screen of moblie or small*/
  @media (max-width:1020px){
   .navbar-default
   {
-    background-color:#000;
+    background-color:#28345a;
     border-color:rgba(255,255,255,.3)
   }
    
@@ -31,16 +76,16 @@
 
 /* bg-primary class section changing  */
 .bg-primary{
-  background-color:#000;
-   color:red !important ;
+  background-color:#28345a;
+   color:white !important ;
   }
 
 .bg-primary p{
-   color:red !important ;
+   color:white !important ;
 }
 
 hr.light{
-  border-color:#000;
+  border-color:#F60;
   }
 
   @media (min-width: 768px)   {
@@ -60,9 +105,12 @@ hr.light{
     .navbar-collapse {
         border-top: 1px solid transparent;
         box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+              height: auto !important;
+
     }
     .navbar-collapse.collapse {
         display: none!important;
+           height: auto !important;
     }
     .navbar-nav {
         float: none!important;
@@ -82,11 +130,29 @@ hr.light{
     /* since 3.1.0 */
     .navbar-collapse.collapse.in { 
         display: block!important;
+           height: auto !important;
+
     }
     .collapsing {
         overflow: hidden!important;
+           height: auto !important; 
     }
 }
+
+
+/* Change color of meun and toggle navbar*/ 
+.navbar-default .navbar-header .navbar-toggle{
+  font-weight:700;
+  font-size:12px;
+  color:white;
+  text-transform:uppercase
+  }
+.navbar-default .nav>li>a,.navbar-default .nav>li>a:focus{
+  text-transform:uppercase;
+  font-weight:700;
+  font-size:13px;
+  color:white;
+  }
 
 /* Header section content H1,text,video of the home page and the name of the website*/
 
@@ -97,7 +163,7 @@ header{
   background-size:cover;
   -o-background-size:cover;
   background-position:center;
-  color:#fff
+  color:#fff; /* change the color of refrech */
   }
 
 header .header-content{
@@ -122,7 +188,8 @@ header .header-content .header-content-inner p{
   color:rgba(255,255,255,.7);
   font-size:16px;
   margin-bottom:50px;
-  color:#fff;
+  color:#000;
+  font-weight: bold;
   }
 
 
@@ -190,3 +257,7 @@ a{
   transition:all .35s;
   color:#000;
   }
+
+#lesson .container{
+  color: #000;
+}
