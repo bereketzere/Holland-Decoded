@@ -1,5 +1,16 @@
+/* i try to add it the caliberi font but its not attractive */
+body{
+  font-family:calibri;
+  webkit-tap-highlight-color:#222
+
+  }
+
+.btn,.navbar-default,.navbar-default .navbar-header .navbar-brand,h1,h2,h3,h4,h5,h6{
+  font-family:'Open Sans','Helvetica Neue',Arial,sans-serif
+  }
 
  
+
 /* The size of logo*/
 .navbar-brand img{
   max-width:120px;
@@ -80,10 +91,8 @@
    color:white !important ;
   }
 
-.bg-primary p{
-   color:white !important ;
-}
-
+ 
+ 
 hr.light{
   border-color:#F60;
   }
@@ -163,7 +172,7 @@ header{
   background-size:cover;
   -o-background-size:cover;
   background-position:center;
-  color:#fff; /* change the color of refrech */
+  color:#fff; /* change the color into white */
   }
 
 header .header-content{
@@ -186,9 +195,9 @@ header .header-content .header-content-inner hr{
 header .header-content .header-content-inner p{
   font-weight:300;
   color:rgba(255,255,255,.7);
-  font-size:16px;
+  font-size:18px;/*font color changer from 16 to 18*/
   margin-bottom:50px;
-  color:#000;
+  color:white; /*the font color is white */
   font-weight: bold;
   }
 
@@ -258,6 +267,147 @@ a{
   color:#000;
   }
 
-#lesson .container{
-  color: #000;
+
+#lesson .container p, h3, h2{
+  color: white;/*we change the color in to white for p,h3,h2*/
 }
+/*for the section lesson btn-primary to make it center*/
+#lesson .btn {
+  
+   display:block; 
+    width:20%; 
+    margin:0 auto;
+    font-size: 14px;
+  
+}
+ 
+/*for section method the p color is white */
+p{
+  font-size:17px;
+  line-height:1.5;
+  margin-bottom:20px;
+  color:white;
+  }
+  i{/*for section method the image color is white */
+    color:#F05F40;
+  }
+
+
+
+.bg-dark{
+  background-color:#28345a;
+  color:#fff;
+  }
+
+/* position  the text of the table*/
+
+   th{
+
+    text-align: center;
+    font-size: 18px;
+  color:white !important;
+  }
+
+  td{
+
+     text-align: left;
+    
+     font-size: 18px;
+   
+  }
+
+
+
+/* white text with black, blue, and darkblue shadow CSS3 */
+
+   body {
+
+    text-shadow: 2px 2px 5px black !important;
+    }
+
+.darkblueShadow {
+   
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+ 
+ 
+#fees p{
+
+ font-size: 16px;
+}
+
+
+/* client images process*/
+
+#client .container img{
+  width: 30%;
+  height: 30%;
+  margin: 10px;
+
+}
+
+.clientLogo img {
+  display: inline-block;
+
+}
+
+/* scroll Up and Down button */
+.UDdemo a {
+    
+  margin-top: 30px;
+ 
+  z-index: 2;
+  display: inline-block;
+  -webkit-transform: translate(0, -50%);
+  transform: translate(0, -50%);
+  color: #fff;
+  font : normal 400 20px/1 'Josefin Sans', sans-serif;
+  letter-spacing: .1em;
+  text-decoration: none;
+  transition: opacity .3s;
+  }
+.UDdemo a:hover {
+        opacity: .5;
+        }
+ 
+
+#Upscrolling{
+
+ 
+    display: inline-block;
+ 
+
+}
+#Upscrolling a> span{
+      transform: rotate(180deg); 
+ 
+}
+#Downscrolling{
+ 
+  display: inline-block;
+}
+
+
+ 
+    @media screen and (max-width: 400px) {
+
+      #Downscrolling {
+         
+        margin-left:100px !important;
+         
+
+      }
+
+    }
+  
+/*----------------------------------------------*/  
+  
+  .copyright a {
+        color: yellow
+    }
+
+ .copyright
+{
+        color: white;
+    }
+ 

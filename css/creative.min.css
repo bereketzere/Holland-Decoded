@@ -12,15 +12,6 @@ body,html{
 	height:100%;width:100%
 	}
 
-body{
-	font-family:Merriweather,'Helvetica Neue',Arial,sans-serif;
-	webkit-tap-highlight-color:#222
-	}
-
-.btn,.navbar-default,.navbar-default .navbar-header .navbar-brand,h1,h2,h3,h4,h5,h6{
-	font-family:'Open Sans','Helvetica Neue',Arial,sans-serif
-	}
-
 hr{
 	border-color:#F05F40;
 	border-width:3px;
@@ -31,18 +22,6 @@ hr{
 
 a:focus,a:hover{
 	color:#eb3812
-	}
-
-p{
-	font-size:16px;
-	line-height:1.5;
-	margin-bottom:20px
-	}
-
-
-.bg-dark{
-	background-color:#222;
-	color:#fff;
 	}
 
 .text-faded{
@@ -227,6 +206,7 @@ fieldset[disabled] .btn-default,fieldset[disabled] .btn-default.active,fieldset[
 	color:#fff;
 	background-color:#F05F40;
 	border-color:#F05F40;
+
 	-webkit-transition:all .35s;
 	-moz-transition:all .35s;
 	transition:all .35s
@@ -236,6 +216,7 @@ fieldset[disabled] .btn-default,fieldset[disabled] .btn-default.active,fieldset[
 	color:#fff;
 	background-color:#ee4b28;
 	border-color:#ed431f
+
 	}
 
 .btn-primary.disabled,.btn-primary.disabled.active,.btn-primary.disabled.focus,
